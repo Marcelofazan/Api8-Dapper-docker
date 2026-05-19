@@ -1,7 +1,7 @@
 ## 🚀 API-AspNetCore-MySQL-Dapper
 Exemplo de API Asp.Net Core utilizando banco de dados MySQL acessando com Dapper.
 
-#### Requisitos e Detalhes do uso do Docker/Docker-compose
+#### Requisitos e Detalhes do uso do Docker-Composer
 Baixar Container temporário do Servidor MySQL e executar o Script por linha de código.
 
 Na pasta **database** esta pasta contém um arquivo, (script_inicial.sql), que será executado quando o container da imagem MySQL for instanciado.
