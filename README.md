@@ -1,4 +1,4 @@
-## ApiNet2-Dapper-composer
+## 🔄 ApiNet2-Dapper-composer
 Exemplo de API Asp.Net Core utilizando banco de dados MySQL acessando com Dapper.
 
 #### O que você vai encontrar neste projeto
