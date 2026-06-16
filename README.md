@@ -1,5 +1,5 @@
 ## 🚀 Api2-Dapper-docker
-Exemplo de API Asp.Net Core utilizando banco de dados MySQL.
+Exemplo de API em C# ASP.NET Core 2 com banco de dados MySQL.
 
 #### 📋 O que você vai encontrar neste projeto
 | Tecnologia | Descrição |
