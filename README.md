@@ -6,9 +6,9 @@ Exemplo de API em C# ASP.NET Core 2 com banco de dados MySQL.
 |-----------|-----------|
 | **Dapper** | Utilização de mapeamento rápido de resultados de consultas SQL diretas pela aplicação. |
 
-#### Requisitos do Projeto
+#### 💬 Requisitos do Projeto
 - Necessário **Docker** instalado.
-- Inicialização automatica -> Na pasta **database** esta pasta contém um arquivo, (script_inicial.sql), que será executado quando o container da imagem MySQL for instanciado.
+- Inicialização automatica banco de dados -> Na pasta **database** esta pasta contém um arquivo, (script_inicial.sql), que será executado quando o container da imagem MySQL for instanciado.
 
 #### 🔄 Executar a aplicação
 - Criar o Container **VSCode**:
