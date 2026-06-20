@@ -8,8 +8,7 @@ Exemplo de API em C# ASP.NET Core 2 com banco de dados MySQL.
 
 #### Requisitos do Projeto
 - Necessário **Docker** instalado.
-
-Na pasta **database** esta pasta contém um arquivo, (script_inicial.sql), que será executado quando o container da imagem MySQL for instanciado.
+- Inicialização automatica -> Na pasta **database** esta pasta contém um arquivo, (script_inicial.sql), que será executado quando o container da imagem MySQL for instanciado.
 
 #### 🔄 Executar a aplicação
 - Criar o Container **VSCode**:
