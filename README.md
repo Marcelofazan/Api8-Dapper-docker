@@ -13,11 +13,11 @@ Exemplo de API em C# ASP.NET Core 2 com banco de dados MySQL.
 #### 🔄 Executar a aplicação
 - Criar o Container **VSCode**:
 ```bash
-docker-compose -f docker-compose-mysql.yml up -d
+docker compose up --build
 ```
 - Fechar o container **VSCode**:
 ```bash
-docker-compose -f docker-compose-mysql.yml down
+docker compose down
 ```
 
 - Para executar a aplicação é necessário executar o container MySQL. 
