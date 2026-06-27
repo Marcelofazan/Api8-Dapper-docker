@@ -1,5 +1,5 @@
 ## 🚀 Api8-Dapper-docker
-Exemplo de API em C# ASP.NET Core 2 com banco de dados MySQL.
+Exemplo de API em C# ASP.NET Core 8 com banco de dados MySQL.
 
 #### 📋 O que você vai encontrar neste projeto
 | Tecnologia | Descrição |
@@ -8,7 +8,6 @@ Exemplo de API em C# ASP.NET Core 2 com banco de dados MySQL.
 
 #### 💬 Requisitos do Projeto
 - Necessário **Docker** instalado.
-- Inicialização automatica banco de dados -> Na pasta **database** esta pasta contém um arquivo, (script_inicial.sql), que será executado quando o container da imagem MySQL for instanciado.
 
 #### 🔄 Executar a aplicação Docker 
 - Criar o Container **VSCode**:
@@ -19,10 +18,9 @@ docker compose up --build
 ```bash
 docker compose down
 ```
-
+- Inicialização automatica banco de dados -> (database/script_inicial.sql), será recriado em toda execução que o container for iniciado.
+  
 #### 🔄 Executar a aplicação Desenvolvimento Local
-
-- Para executar a aplicação é necessário executar o container MySQL. 
 - Restaurar dependencias .Net 
 ```bash
 dotnet restore
@@ -31,7 +29,8 @@ dotnet restore
 ```bash
 dotnet run
 ```
-
+- Para executar a aplicação é necessário executar o container MySQL.
+  
 #### ⚙️ Configuração SSL para Driver MySQL IDE (**DBeaver** ou Workbench) 
 
 Navegue até Propriedades do driver: Clique na guia Propriedades do driver (ao lado da guia “Principal”).
