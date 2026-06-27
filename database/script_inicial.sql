@@ -1,4 +1,4 @@
-USE myfirstapi;
+USE ApiPessoaDB;
 
 CREATE TABLE Pessoas (
   IdPessoa int NOT NULL AUTO_INCREMENT,
