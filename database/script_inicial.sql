@@ -1,6 +1,6 @@
 USE myfirstapi;
 
-CREATE TABLE pessoas (
+CREATE TABLE Pessoas (
   IdPessoa int NOT NULL AUTO_INCREMENT,
   RazaoSocial varchar(80) NOT NULL,
   CnpjCpf varchar(18) NOT NULL,
