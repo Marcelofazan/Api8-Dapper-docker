@@ -18,6 +18,7 @@ docker compose up -d
 ```bash
 docker compose down
 ```
+- O Swagger ficara disponivel em **http://localhost:5000/api/swagger/index.html**
 - Inicialização automatica banco de dados -> (database/script_inicial.sql), será recriado em toda execução que o container for iniciado.
   
 #### 🔄 Executar a aplicação Desenvolvimento Local
