@@ -27,7 +27,7 @@ namespace ApiMySql.Repository
                 return connection.Query<Pessoa>(commandText);
             }
         }
-        public Pessoa BuscaPorId(int idpessoa)
+        public Pessoa? BuscaPorId(int idpessoa)
         {
             using (MySqlConnection connection = new MySqlConnection(_connectionString))
             {
