@@ -6,7 +6,7 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: "123456"
-      MYSQL_DATABASE: myfirstapi
+      MYSQL_DATABASE: ApiDb
     ports:
       - "3306:3306"
     volumes:
@@ -28,7 +28,7 @@ services:
       db:
         condition: service_healthy # Garante que a API só liga quando o script do MySQL terminar
     environment:
-      - ConnectionStrings__MySqlDbConnection=server=db;port=3306;userid=root;password=123456;database=myfirstapi;persistsecurityinfo=True;
+      - ConnectionStrings__MySqlDbConnection=server=db;port=3306;userid=root;password=123456;database=ApiDb;persistsecurityinfo=True;
       - ASPNETCORE_ENVIRONMENT=Development
     networks: 
       - api_network
