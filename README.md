@@ -10,11 +10,12 @@ Exemplo de API em C# ASP.NET Core 8 com banco de dados MySQL.
 - Necessário **Docker** instalado.
 
 #### 🔄 Executar a aplicação Docker 
-- Criar o Container **VSCode**:
+
+VSCode Terminal [1] - Abrir Container
 ```bash
 docker compose up -d
 ```
-- Fechar o container **VSCode**:
+VSCode Terminal [3] - Fechar Container
 ```bash
 docker compose down
 ```
@@ -22,6 +23,7 @@ docker compose down
 - Inicialização automatica banco de dados -> (database/script_inicial.sql), será recriado em toda execução que o container for iniciado.
   
 #### 🔄 Executar a aplicação Desenvolvimento Local
+VSCode Terminal [2] - Abrir Container
 - Restaurar dependencias .Net 
 ```bash
 dotnet restore
