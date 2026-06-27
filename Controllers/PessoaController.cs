@@ -15,7 +15,7 @@ namespace ApiMySql.Controller
 
         /*
         Construtor com a dependência de uma interface de repositório. Esta interface terá sua instância injetada pelo contexto
-        de injeção do .net core, configurado no arquivo startup.cs na linha 46
+        de injeção do .net core 
          */
         public PessoaController(IPessoaRepository pessoaRepository)
         {
@@ -90,6 +90,5 @@ namespace ApiMySql.Controller
                 return BadRequest();
             }
         }
-
     }
 }
