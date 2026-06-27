@@ -23,7 +23,7 @@ docker compose down
 - Inicialização automatica banco de dados -> (database/script_inicial.sql), será recriado em toda execução que o container for iniciado.
   
 #### 🔄 Executar a aplicação Desenvolvimento Local
-VSCode Terminal [2] - Abrir Container
+VSCode Terminal [2]
 - Restaurar dependencias .Net 
 ```bash
 dotnet restore
