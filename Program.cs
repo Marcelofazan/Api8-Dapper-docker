@@ -28,6 +28,11 @@ var app = builder.Build();
 // PIPELINE DE EXECUÇÃO (Configure)
 // ==========================================
 
+if (!app.Environment.IsDevelopment()) 
+{
+    app.UseHttpsRedirection();
+}
+
 // Configuração do ambiente de desenvolvimento
 if (app.Environment.IsDevelopment())
 {
@@ -35,8 +40,11 @@ if (app.Environment.IsDevelopment())
     
     // Ativa o middleware do Swagger e a interface gráfica
     app.UseSwagger();
-    app.UseSwaggerUI(); 
-
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Minha API v1");
+        c.RoutePrefix = "api/swagger";
+    });
 }
 else
 {
