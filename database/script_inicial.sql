@@ -1,8 +1,3 @@
-/********************************************************
-    Criação da tabela de pessoas
-/********************************************************/
-
-
 CREATE TABLE pessoas (
   IdPessoa int NOT NULL AUTO_INCREMENT,
   RazaoSocial varchar(80) NOT NULL,
@@ -13,5 +8,3 @@ CREATE TABLE pessoas (
   Senha varchar(12) DEFAULT NULL,
   PRIMARY KEY (IdPessoa)
 );
-
-/********************************************************
