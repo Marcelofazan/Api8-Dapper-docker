@@ -12,7 +12,7 @@ Exemplo de API em C# ASP.NET Core 8 com banco de dados MySQL.
 #### 🔄 Executar a aplicação Docker 
 - Criar o Container **VSCode**:
 ```bash
-docker compose up --build
+docker compose up --v
 ```
 - Fechar o container **VSCode**:
 ```bash
