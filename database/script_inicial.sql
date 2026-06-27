@@ -1,4 +1,4 @@
-USE ApiPessoaDB;
+USE ApiDb;
 
 CREATE TABLE Pessoas (
   IdPessoa int NOT NULL AUTO_INCREMENT,
